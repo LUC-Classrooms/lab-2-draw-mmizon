@@ -5,11 +5,12 @@ function setup(){
 function draw(){
   background(0, 0, 255);
   // add your drawing code here ...
+  fill(150, 75, 0)
   ellipse(200,100,75)
+  fill (0, 163, 108)
   strokeWeight(1)
   ellipse(200,100,63)
   strokeWeight(2)
-  fill (0, 163, 108)
   ellipse(170, 65, 30)
   ellipse(230, 135, 30)
   ellipse(230, 65, 30)
